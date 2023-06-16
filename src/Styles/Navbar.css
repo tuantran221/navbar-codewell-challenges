@@ -1,0 +1,76 @@
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px 10px 10px 10px;
+    color: #7e7d7d;
+}
+
+.navbar-nav{
+    display: flex;
+    list-style: none;
+}
+
+.navbar-item{
+    margin-right: 20px;
+    font-size: 15px;
+}
+
+.navbar-link{
+    text-decoration: none;
+    color: inherit;
+    padding: 3px;
+}
+
+.navbar-buttons{
+    display: flex;
+   
+}
+.navbar-button-signin{
+    all: unset;
+    text-align: center;
+    padding-right: 15px;
+    cursor: pointer;
+    font-size: 15px;
+}
+.navbar-button-try{
+    border: none;
+    height: 40px;
+    width: 100px;
+    border-radius: 4px;
+     cursor: pointer;
+     background-color: #286621;
+     color: #fff;
+     font-weight: bold;
+     font-size: 12px;
+}
+
+
+.navbar-dropdown{
+    position: relative;
+    display: inline-block;
+    left: -108px;
+    top: 10px
+}
+
+.navbar-dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.navbar-dropdown-content img{
+    display: block;
+}
+.navbar-dropdown-content img:hover{
+    background-color: #ddd;
+}
+
+.navbar-item-products:hover .navbar-dropdown-content{
+    display: block;
+  
+    
+}
